@@ -5,7 +5,7 @@ Version:	0.9.98
 Release:	1
 License:	GPL
 Group:		Applications/Sound
-Source0:	http://dl.sf.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	15a26258853cf061e9b7e5a81f147528
 URL:		http://rawrec.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
