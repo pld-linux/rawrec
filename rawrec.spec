@@ -1,5 +1,5 @@
-Summary:	record and play raw data from/to your soundcard
-Summary(pl):	nagrywaj i odtwarzaj surowe dane z/na karcie d德i瘯owej
+Summary:	Record and play raw data from/to your soundcard
+Summary(pl):	Nagrywanie i odtwarzanie surowych danych z/na karcie d德i瘯owej
 Name:		rawrec
 Version:	0.9.98
 Release:	1
@@ -12,14 +12,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 rawrec reads raw audio data from a digital signal processor (DSP) and
-writes it to the given file, or to standard output if no file is given.
+writes it to the given file, or to standard output if no file is
+given.
 
-rawplay reads raw audio data from the given file, or from standard input
-if no file is given, and writes it to a DSP.
+rawplay reads raw audio data from the given file, or from standard
+input if no file is given, and writes it to a DSP.
 
 %description -l pl
-rawrec wczytuje surowe dane audio z procesora sygna這wego (DSP) i zapisuje je do
-podanego pliku lub na standardowe wyj軼ie.
+rawrec wczytuje surowe dane audio z procesora sygna這wego (DSP) i
+zapisuje je do podanego pliku lub na standardowe wyj軼ie.
 
 rawplay wczytuje surowe dane audio z pliku lub standardowego wej軼ia i
 zapisuje je do DSP.
@@ -28,8 +29,8 @@ zapisuje je do DSP.
 %setup -q
 
 %build
-cd src
-%{__make}
+%{__make} -C src \
+	OPTFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
