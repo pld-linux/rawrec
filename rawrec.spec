@@ -30,6 +30,7 @@ zapisuje je do DSP.
 
 %build
 %{__make} -C src \
+	CC="%{__cc}" \
 	OPTFLAGS="%{rpmcflags}"
 
 %install
