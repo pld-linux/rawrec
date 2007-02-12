@@ -1,5 +1,5 @@
 Summary:	Record and play raw data from/to your soundcard
-Summary(pl.UTF-8):   Nagrywanie i odtwarzanie surowych danych z/na karcie dźwiękowej
+Summary(pl.UTF-8):	Nagrywanie i odtwarzanie surowych danych z/na karcie dźwiękowej
 Name:		rawrec
 Version:	0.9.98
 Release:	1
