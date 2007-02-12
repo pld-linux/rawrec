@@ -1,5 +1,5 @@
 Summary:	Record and play raw data from/to your soundcard
-Summary(pl):	Nagrywanie i odtwarzanie surowych danych z/na karcie dºwiÍkowej
+Summary(pl.UTF-8):   Nagrywanie i odtwarzanie surowych danych z/na karcie d≈∫wiƒôkowej
 Name:		rawrec
 Version:	0.9.98
 Release:	1
@@ -18,11 +18,11 @@ given.
 rawplay reads raw audio data from the given file, or from standard
 input if no file is given, and writes it to a DSP.
 
-%description -l pl
-rawrec wczytuje surowe dane audio z procesora sygna≥owego (DSP) i
-zapisuje je do podanego pliku lub na standardowe wyj∂cie.
+%description -l pl.UTF-8
+rawrec wczytuje surowe dane audio z procesora sygna≈Çowego (DSP) i
+zapisuje je do podanego pliku lub na standardowe wyj≈õcie.
 
-rawplay wczytuje surowe dane audio z pliku lub standardowego wej∂cia i
+rawplay wczytuje surowe dane audio z pliku lub standardowego wej≈õcia i
 zapisuje je do DSP.
 
 %prep
